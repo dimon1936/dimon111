@@ -1,8 +1,6 @@
 import discord
 from discord.ext import commands
 from discord.utils import get
-from discord.utils import get
-import youtube_dl, os
 
 
 PREFIX = '.'
@@ -314,12 +312,12 @@ async def CommandNotFound_error( ctx, error ):
 
  
 
-
-
+client.run("NjUzMjY1MTk5NjYyMzY2NzIw.XicQFA.JJ47lIB7NywcSlw65UI0oV7KF6k")
 
 # Connect
-token = open( 'token.txt', 'r' ).readline()
+'''token = open( 'token.txt', 'r' ).readline()
 
-client.run( token )
+client.run( token )'''
+
 
 
